@@ -1,16 +1,7 @@
-# GDG Tech Wildcard Entry — Task 2: Workshop Registration and Notifications
+#  Task 2: Workshop Registration and Notifications
 
 A fault-tolerant, zero-external-runtime-dependency **TypeScript** backend comprising a **Workshop Registration & Transactional Outbox Service** and a **Chaos-Injecting Mock HTTP Notification Service**.
-
-Built in strict compliance with **General Submission Guideline #4** (*"Do not replace required core logic with a library when the task explicitly requires a custom implementation"*). Every reliability primitive—CRC32 Write-Ahead Logging, ACID Transactional Outbox commits, lease-based concurrent worker lanes, Full-Jitter Exponential Backoff, per-member failure isolation, and `Idempotency-Key` deduplication—is implemented from scratch in clean TypeScript.
-
 ---
-
-## Submission Links (Fill Before Submitting)
-
-- **GitHub Repository URL:** `__________________________________________________`
-- **Live Interactive Demo / Deployment URL (Optional):** `__________________________________________________`
-
 ---
 
 ## 1. Prerequisites, Installation & Configuration
