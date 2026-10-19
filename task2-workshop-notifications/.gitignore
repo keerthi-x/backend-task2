@@ -1,0 +1,4 @@
+node_modules/
+data/*.wal.ndjson
+.DS_Store
+.env

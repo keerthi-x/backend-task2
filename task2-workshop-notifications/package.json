@@ -1,0 +1,21 @@
+{
+  "name": "gdg-task2-workshop-notifications-ts",
+  "version": "1.0.0",
+  "description": "GDG Tech Wildcard Entry \u2014 Task 2: Workshop Registration and Notifications (TypeScript, ACID Transactional Outbox, Lease-Based Worker Pool, Full-Jitter Exponential Backoff, End-to-End Idempotency)",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-ts.js",
+    "start:mock": "node dist/mock-notification-service.js",
+    "start:api": "node dist/server.js",
+    "demo": "node dist/chaos-demo.js",
+    "test": "node dist/chaos-demo.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^5.4.0"
+  },
+  "license": "MIT"
+}

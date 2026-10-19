@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-10-19T03:06:59.804Z",
+  "workshopId": "ws-distributed-systems",
+  "totalValidRegistrations": 25,
+  "rejectedFailedRegistrations": 3,
+  "notificationsForFailedRegistrations": 0,
+  "avgRegistrationResponseLatencyMs": 9.3,
+  "maxRegistrationResponseLatencyMs": 14.5,
+  "expectedConfirmations": 25,
+  "expectedCancellations": 25,
+  "totalExpectedNotifications": 50,
+  "actualDeliveredOutboxCount": 50,
+  "pendingOrLostNotifications": 0,
+  "totalOutboxDeliveryAttempts": 106,
+  "walFramesReplayedAfterCrash": 108,
+  "mockServiceTelemetry": {
+    "totalHttpRequestsReceived": 106,
+    "simulated503ErrorsInjected": 42,
+    "simulatedTimeoutsInjected": 14,
+    "uniqueConfirmedDeliveries": 50,
+    "idempotentDuplicateReplaysAbsorbed": 0
+  }
+}
